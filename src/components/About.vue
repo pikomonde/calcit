@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>This is a about page</h1>
+    <p>{{ msg }}</p>
   </div>
 </template>
 
@@ -9,7 +10,7 @@ export default {
   name: 'About',
   data () {
     return {
-      // msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to our site. I myself is Piko. Piko Monde.'
     }
   }
 }
